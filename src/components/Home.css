@@ -1,0 +1,76 @@
+.home {
+    height: 100vh;
+    background: linear-gradient(to right bottom, #0d47a1, #000);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    overflow: hidden;
+    /* padding-top: 60px;*/   /* To prevent header overlap */
+}
+.home-content {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.home-content img.profile-photo {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+.home-content .text {
+    max-width: 500px;
+}
+.home-content .text h1 {
+    font-size: 3em;
+    margin: 0;
+}
+.home-content .text p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+
+.fade-in {
+    animation: fadeIn 2s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.slide-in {
+    animation: slideIn 1.5s ease-out;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.zoom-in {
+    animation: zoomIn 2s ease-in-out;
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
