@@ -1,6 +1,7 @@
 .contact {
     padding: 50px 20px;
-    background-color: #121212;
+    /* background-color: #121212; */
+    background: linear-gradient(to bottom, rgb(223, 126, 223),black);
     color: white;
     display: flex;
     justify-content: center;
@@ -37,7 +38,7 @@
   
   .form-group input,
   .form-group textarea {
-    width: 100%;
+    width: 80%;
     padding: 10px;
     font-size: 1rem;
     border-radius: 5px;

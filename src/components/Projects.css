@@ -71,7 +71,8 @@
 
 .projects {
     padding: 60px 20px;
-    background-color: #121212;
+    /* background-color: #121212; */
+    background: linear-gradient(to bottom, rgb(158, 35, 158), rgb(223, 126, 223));
     color: white;
     text-align: center;
     overflow: hidden;
@@ -90,7 +91,8 @@
 }
 
 .carousel-btn {
-    background-color: #1565c0;
+    /* background-color: #1565c0; */
+    background-color: rgb(54, 48, 48);
     border: none;
     color: white;
     font-size: 2em;
@@ -102,13 +104,15 @@
 }
 
 .carousel-btn:hover {
-    background-color: #1e88e5;
+    /* background-color: #1e88e5; */
+    background-color: black;
 }
 
 .project-card {
     display: flex;
     width: 80%;
-    background: #1e88e5;
+    /* background: #1e88e5; */
+    background:  rgba(30, 30, 30, 0.9);
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -120,7 +124,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #1565c0;
+    /* background: #1565c0; */
+    background:  rgba(30, 30, 30, 0.9);
 }
 
 .project-image {
@@ -163,5 +168,6 @@
 }
 
 .indicator.active {
-    background-color: #1e88e5;
+    /* background-color: #1e88e5; */
+    background-color: black;
 }

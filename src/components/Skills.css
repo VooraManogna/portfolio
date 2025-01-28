@@ -1,6 +1,7 @@
 .skills {
     padding: 100px 20px;
-    background-color: #1a237e;
+    /* background-color: #1a237e; */
+    background: linear-gradient(to bottom, rgb(25, 25, 60),rgb(59, 59, 154));
     color: white;
     text-align: center;
 }

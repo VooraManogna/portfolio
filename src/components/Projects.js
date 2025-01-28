@@ -1,40 +1,37 @@
 import React, {useState} from 'react';
 import './Projects.css';
-// import chatbotImg from './chatbot.png';
-// import weatherAppImg from './weather_app.png';
-// import snakeGameImg from './snake_game.png';
-// import qrCodeImg from './qr_code.png';
-// import portfolioImg from './portfolio.png';
+import chatbotImg from './chatbot.webp';
+import weatherAppImg from './weather.jpeg';
+import snakeGameImg from './snake-game.webp';
+import qrCodeImg from './qrcode.jpeg';
+import portfolioImg from './portfolio img.jpeg';
 
-import codechefImg from './codechef img.jpeg';
-// import leetcodeImg from './leetcode img.png';
-// import githubImg from './github img.png';
 
 function Projects() {
     const projects = [
         {
             name: 'Chatbot',
-            image: codechefImg,
+            image: chatbotImg,
             description: 'An interactive chatbot that allows users to query CSV files or databases. Features include data visualization, chat history, text-to-speech, and output translation.',
         },
         {
             name: 'Weather App',
-            image: codechefImg,
+            image: weatherAppImg,
             description: 'A weather forecasting application providing real-time updates and location-based predictions.',
         },
         {
             name: 'Snake Game',
-            image: codechefImg,
+            image: snakeGameImg,
             description: 'A classic snake game built with JavaScript, featuring intuitive controls and engaging gameplay.',
         },
         {
             name: 'QR Code Generator',
-            image: codechefImg,
+            image: qrCodeImg,
             description: 'A tool to generate QR codes for URLs, text, or other data inputs with customizable options.',
         },
         {
             name: 'Portfolio',
-            image: codechefImg,
+            image: portfolioImg,
             description: 'A personal portfolio website showcasing projects, skills, and professional profiles.',
         },
     ];

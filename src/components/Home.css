@@ -1,6 +1,7 @@
 .home {
     height: 100vh;
-    background: linear-gradient(to right bottom, #0d47a1, #000);
+    /* background: linear-gradient(to right bottom, #0d47a1, #000); */
+    background: linear-gradient(to bottom, black, rgb(25, 25, 60));
     display: flex;
     align-items: center;
     justify-content: center;
