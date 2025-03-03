@@ -12,27 +12,32 @@ function Projects() {
         {
             name: 'Chatbot',
             image: chatbotImg,
-            description: 'An interactive chatbot that allows users to query CSV files or databases. Features include data visualization, chat history, text-to-speech, and output translation.',
+            description: 'An interactive chatbot that allows users to interact with their CSV files or databases and help in summarizing and visualizing.It allows users to Translate the output into different languages and even generate speech from text. It also includes additional features like chat history.',
+            Link:'https://github.com/VooraManogna/chatbot',
         },
         {
             name: 'Weather App',
             image: weatherAppImg,
-            description: 'A weather forecasting application providing real-time updates and location-based predictions.',
+            description: 'A weather forecasting application that provides real-time weather updates based on users search or current geolocation. It also provides additional information like wind speed, humidity, precision etc.',
+            Link:'https://vooramanogna.github.io/weather_app/',
         },
         {
             name: 'Snake Game',
             image: snakeGameImg,
-            description: 'A classic snake game built with JavaScript, featuring intuitive controls and engaging gameplay.',
+            description: 'A classic user friendly snake game that offers intuitive controls and smooth animation which provides gaming experience and engaging gameplay.',
+            Link:'https://vooramanogna.github.io/snakegame/',
         },
         {
             name: 'QR Code Generator',
             image: qrCodeImg,
             description: 'A tool to generate QR codes for URLs, text, or other data inputs with customizable options.',
+            Link:' https://vooramanogna.github.io/portfolio/',
         },
         {
             name: 'Portfolio',
             image: portfolioImg,
             description: 'A personal portfolio website showcasing projects, skills, and professional profiles.',
+            Link:' https://vooramanogna.github.io/portfolio/',
         },
     ];
 
@@ -82,6 +87,9 @@ const [currentIndex, setCurrentIndex] = useState(0);
                     <div className="project-description">
                         <h3>{projects[currentIndex].name}</h3>
                         <p>{projects[currentIndex].description}</p>
+                        <a href={projects[currentIndex].Link} target="_blank" rel="noopener noreferrer">
+                            <button className="github-btn">View</button>
+                        </a>
                     </div>
                 </div>
                 <button className="carousel-btn next" onClick={handleNext}>&gt;</button>
