@@ -12,12 +12,12 @@
 .home-content {
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 150px;
 }
 .home-content img.profile-photo {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
+    width: 280px;
+    height: 380px;
+    border-radius: 50%/30%;
     border: 5px solid white;
 }
 .home-content .text {
@@ -25,11 +25,13 @@
 }
 .home-content .text h1 {
     font-size: 3em;
-    margin: 0;
+    margin: 15;
 }
 .home-content .text p {
     font-size: 1.2em;
     margin-top: 10px;
+    line-height: 1.8; 
+    text-align: justify;
 }
 
 
