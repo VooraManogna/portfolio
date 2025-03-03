@@ -6,10 +6,10 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="social-icons">
-        <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/manogna-voora-51268a255/" target="_blank" rel="noopener noreferrer">
         <BsLinkedin size={30} className="social-icon"/>
         </a>
-        <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/VooraManogna" target="_blank" rel="noopener noreferrer">
         <BsGithub size={30} className="social-icon"/>
         </a>
       </div>
