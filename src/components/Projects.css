@@ -171,3 +171,20 @@
     /* background-color: #1e88e5; */
     background-color: black;
 }
+
+.github-btn {
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+}
+
+.github-btn:hover {
+    background-color: rgb(158, 35, 158);
+    /* background-color: #555; */
+}
